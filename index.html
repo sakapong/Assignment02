@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hello World</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        function initialize() {
+            var mapProp = {
+                center: new google.maps.LatLng(7.0078193, 100.4999542),
+                zoom: 15,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("map"), mapProp);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="img/logo.png">
+        </div>
+
+        <div class="slogan">
+            <p>Work Hard Play Hard</p>
+        </div>
+
+        <ul>
+            <li><a href="#banner" class="smoothScroll">Home</a></li>
+            <li><a href="#intro" class="smoothScroll">Our Team</a></li>
+            <li><a href="#contact" class="smoothScroll">Contact</a></li>
+            <li><a href="#content" class="smoothScroll">About Award</a></li>
+        </ul>
+
+    </nav>
+
+    <section class="banner">
+        <video autoplay loop muted>
+            <source src="img/346061251.mp4" type="video/mp4">
+        </video>
+
+
+        <div class="text-intro">
+            <h1>Digimon Media</h1>
+            <p>Production</p>
+            <div class="viewreel"><a href="#"> View Reel</a></div>
+        </div>
+
+
+
+
+    </section>
+
+    <section class="row">
+        <section class="intro" id="intro">
+            <h1>Digimon Media Production</h1>
+            <h2>in The South of Thailand</h2>
+
+            <p> Digimon Media Production is located in Hat Yai, Songkhla, Thailand which provides full production services for commercials, short films and animations industry.</p>
+
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact-about">
+                <h1>Our Space</h1>
+
+                <p>Prince of Songkla University International College (PSUIC), 12th Floor, Learning Resource Center (LRC) Square Building, 15 Kanjanavanich Road, Hat Yai, Thailand 90110</p>
+
+            </div>
+
+            <div id="map">
+            </div>
+
+
+
+        </section>
+    </section>
+
+
+    <div class="clearfix"></div>
+    <section class="heading">
+
+    </section>
+    <section class="content" id="content">
+        <h2 class="headline">Business as usual just ain't good enough.</h2>
+        <div class="bodyline">
+            <p>Our ability to package <strong>multiple services</strong> allows us to deliver both <strong>schedule</strong> and budget efficiencies and to create content with the multi-platform world in mind. This <strong>helps</strong> clients create great looking <strong>campaigns</strong> and <strong>content</strong> for any screen.</p>
+        </div>
+
+
+
+    </section>
+    <div class="clearfix"></div>
+    <section class="foot">
+        <section class="box">
+            <p>We have</p>
+            <h3>300</h3>
+            <p>Stories</p>
+        </section>
+        <section class="box">
+            <p>We have</p>
+            <h3>300</h3>
+            <p>Stories</p>
+        </section>
+        <section class="box">
+            <p>We have</p>
+            <h3>300</h3>
+            <p>Stories</p>
+        </section>
+        <div class="clearfix"></div>
+
+    </section>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
+</body>
+
+</html>

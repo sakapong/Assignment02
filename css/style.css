@@ -1,0 +1,316 @@
+/*====================
+Font Declaration
+====================*/
+
+@font-face {
+    font-family: 'rsulight';
+    src: url('../font/rsu_light-webfont.eot');
+    src: url('../font/rsu_light-webfont.eot?#iefix') format('embedded-opentype'), url('../font/rsu_light-webfont.woff2') format('woff2'), url('../font/rsu_light-webfont.woff') format('woff'), url('../font/rsu_light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*====================
+Global Declaration
+====================*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'rsulight';
+}
+
+h1,
+h2,
+h3,
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*====================
+Navigation Bar
+====================*/
+
+
+nav {
+    width: 100%;
+    background-color: #161819;
+}
+
+nav > ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+nav >ul >li {
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 80px;
+    line-height: 80px;
+}
+
+nav >ul >li> a {
+    font-family: 'rsulight';
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+nav >ul > li:hover {
+    background-color: grey;
+}
+
+nav> .logo {
+    display: inline-block;
+    float: left;
+    margin: 0 auto;
+    height: 100%;
+}
+
+nav> .logo > img {
+    padding-left: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.slogan {
+    display: inline-block;
+    float: left;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.slogan p {
+    color: #FFFFFF;
+    font-family: 'rsulight';
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/*====================
+Banner Section
+====================*/
+
+.banner {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+video {
+    opacity: 0.9;
+    z-index: -1;
+    width: 100%;
+}
+
+.text-intro {
+    width: 100%;
+    text-transform: uppercase;
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.text-intro> h1 {
+    color: #ffffff;
+    font-family: 'rsulight';
+    font-size: 150px;
+    font-weight: 1000;
+}
+
+.text-intro> p {
+    margin-top: -50px;
+    color: #ffffff;
+    font-family: 'rsulight';
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.viewreel {
+    width: 100%;
+    position: absolute;
+    color: #ffffff;
+    font-size: 200%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.viewreel a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 3px solid #ffffff;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.viewreel a:hover {
+    background-color: #ffffff;
+}
+
+.row {
+    overflow: hidden;
+    background-color: #161819;
+}
+
+/*====================
+Intro Section
+====================*/
+
+.intro {
+    float: left;
+    width: 50%;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.intro h1 {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 1000;
+}
+
+.intro h2 {
+    margin-top: 0;
+}
+
+.intro p {
+    padding-top: 30px;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+/*====================
+Contact Section
+====================*/
+
+.contact {
+    float: left;
+    width: 50%;
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.contact h1 {
+    font-size: 50px;
+    line-height: 50px;
+    padding-bottom: 20px;
+    font-weight: 1000;
+}
+
+.contact p {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.contact-about {
+    margin-bottom: 40px;
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+}
+
+
+/*====================
+Content Section
+====================*/
+
+.heading {
+    width: 100%;
+    background-image: url(../img/work.jpg);
+    height: 600px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    width: 100%;
+    background-color: #d30000;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+
+.headline {
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 50px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.bodyline p {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+/*====================
+Footer Section
+====================*/
+
+.foot {
+    width: 100%;
+    background-color: #d30000;
+    box-sizing: border-box;
+    padding-bottom: 100px;
+    padding-left: 95px;
+    padding-right: 95px;
+    line-height: 30px;
+}
+
+.box {
+    width: 33.33%;
+    float: left;
+    background-color: #d30000;
+    color: #fff;
+    font-size: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.box p {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.box h3 {
+    font-size: 90px;
+    line-height: 90px;
+}
